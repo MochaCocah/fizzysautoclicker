@@ -1,0 +1,3 @@
+@echo off
+echo Starting Fizzy's Autoclicker...
+start "" "dist\FizzysAutoclicker.exe"
