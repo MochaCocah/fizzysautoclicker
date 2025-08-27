@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
     
     steps:
     - uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
         pyinstaller --onefile --windowed --name "FizzysAutoclicker" --hidden-import "PIL._tkinter_finder" --hidden-import "tkinter" --hidden-import "customtkinter" --hidden-import "pynput" --clean autoclicker.py
     
     - name: Upload executable
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: FizzysAutoclicker-Windows
         path: dist/FizzysAutoclicker.exe
