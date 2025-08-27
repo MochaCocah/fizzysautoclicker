@@ -43,9 +43,6 @@ def setup_environment():
     if os.name == 'nt':  # Windows
         activate_cmd = r'.venv\Scripts\activate.bat && '
         pip_cmd = r'.venv\Scripts\pip.exe'
-    else:  # Linux/Mac
-        activate_cmd = 'source .venv/bin/activate && '
-        pip_cmd = '.venv/bin/pip'
     
     # Install dependencies
     if not run_command(f'{pip_cmd} install -r requirements.txt', 

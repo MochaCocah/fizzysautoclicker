@@ -1,9 +1,3 @@
-# Contributing to Fizzy's Autoclicker
-
-Thank you for your interest in contributing to Fizzy's Autoclicker! 🎉
-
-## Ways to Contribute
-
 ### 🐛 Bug Reports
 - Use the [Issues](https://github.com/your-username/fizzys-autoclicker/issues) tab
 - Include detailed steps to reproduce
@@ -69,10 +63,3 @@ Thank you for your interest in contributing to Fizzy's Autoclicker! 🎉
 - **Description**: Explain what changes you made and why
 - **Testing**: Describe how you tested your changes
 - **Screenshots**: Include before/after screenshots for UI changes
-
-## Code of Conduct
-
-- Be respectful and inclusive
-- Focus on constructive feedback
-- Help others learn and grow
-- Keep discussions on-topic
