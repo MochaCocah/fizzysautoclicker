@@ -36,7 +36,6 @@ Thank you for your interest in contributing to Fizzy's Autoclicker! 🎉
    ```bash
    python -m venv .venv
    .venv\Scripts\activate  # Windows
-   source .venv/bin/activate  # Linux/Mac
    ```
 
 3. **Install dependencies**:
